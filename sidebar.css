@@ -6,20 +6,20 @@
       order: +1;
       max-width: 500px;
     }
-    .search-container {
+    #search-container-desktop {
       background-color: #450047;
       margin: 0;
       padding: 10px 0;
       border: #28001e solid 1px;
     }
-    .search-container input {
+    #search-container-desktop input {
       width: 80%;
       padding: 5px;
       border: none;
       background: #111;
       color: white;
     }
-    .search-container button {
+    #search-container-desktop button {
       padding: 5px 10px;
       background: #111;
       color: #d7c590;
@@ -27,7 +27,7 @@
       margin-top: 5px;
       cursor: pointer;
     } 
-    .search-container h3 {
+    #search-container-desktop h3 {
       margin: 0;
       padding: 5px 0; /* optional: add some space if you want balance */
     }
@@ -52,7 +52,7 @@
       text-align: center;
     }
 
-    .search-container-mobile {
+    #search-container-mobile {
       display: none;
       text-align: center;
       background-color: #450047;
@@ -61,7 +61,7 @@
       border: #28001e solid 1px;
     }
 
-    .search-container-mobile input {
+    #search-container-mobile input {
       width: 80%;
       padding: 5px;
       border: none;
@@ -69,7 +69,7 @@
       color: white;
     }
 
-    .search-container-mobile h3 {
+    #search-container-mobile h3 {
       margin: 0;
       padding: 5px 0; /* optional: add some space if you want balance */
     }
@@ -85,13 +85,13 @@
         max-width: 350px;
       }
 
-      .search-container input {
+      #search-container-desktop input {
         width: 75%;
       }
     }
 
     @media (max-width: 1275px) {
-      .search-container {
+      #search-container-desktop {
         display: none;
       }
 
@@ -100,7 +100,7 @@
         width: 100%;
       }
 
-      .search-container-mobile {
+      #search-container-mobile {
         display: block;
       }
     }
